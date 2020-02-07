@@ -277,6 +277,7 @@ margin-right: 30px;
         background-color: #fff;
         transition: transform 0.2s;
         border: none;
+        z-index: 3;
     }
     .menu-button:before{
         content: '';
@@ -289,6 +290,7 @@ margin-right: 30px;
         background-color: #fff;
         transition: transform 0.2s;
         margin-top: -7px;
+        z-index: 3;
     }
     .menu-button:after{
         content: '';
@@ -301,6 +303,7 @@ margin-right: 30px;
         background-color: #fff;
         transition: transform 0.2s;
         margin-top: 7px;
+        z-index: 3;
     }
 
     .menu-button-active{

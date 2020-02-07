@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Mason';
-    src: url('../Fonts/Mason.woff2') format('woff2');
+    src: url('Fonts/Mason.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
   }
   
   @font-face {
     font-family: 'MasonChronicles';
-    src: url('../Fonts/MasonChronicles.woff') format('woff');
+    src: url('Fonts/MasonChronicles.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   }
@@ -326,6 +326,7 @@ margin-right: 30px;
        background-color:  #9D2929;
        width: 250px;
        padding-bottom: 40px;
+       z-index: 2;
     }
 
     .header-active{
